@@ -17,7 +17,7 @@ The partial result is used to update the display.
 
 When deployed on Tomcat the root context is:
 
-graham-step
+convex-hull
 
 Dominique Ubersfeld, Cachan, France  
 
