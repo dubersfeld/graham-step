@@ -137,54 +137,6 @@ function canvasApp() {
     	var x, y;
     	var dmin = 20;
     	
-    	var toto = [];
-    	toto[0] =  [116, 362];
-	
-    	toto[1] = [178, 62];
-    	toto[2] = [599, 319];
-    	toto[3] = [148, 360];
-    	toto[4] = [607, 211];
-    	toto[5] = [403,  75];
-    
-    	toto[6] = [351, 125];
-    	toto[7] = [555, 533];
-    	toto[8] = [129, 87];
-    	toto[9] = [252, 406];
-    	toto[10] = [153, 291];
-    	toto[11] = [172, 464];
-    	toto[12] = [454, 302];
-    
-    	toto[13] = [527, 176];
-    	toto[14] = [555, 263];
-    	toto[15] = [129, 547];
-    	toto[16] = [130, 320];
-    	toto[17] = [210, 494];
-    	toto[18] = [418, 242];
-    	toto[19] = [641, 292];
-    	toto[20] = [356, 531];
-    	
-    	toto[21] = [567, 197];
-    	toto[22] = [235, 248];
-    	toto[23] = [630, 207];
-    	toto[24] = [177, 136];
-    	toto[25] = [265, 94];
-    	toto[26] = [521, 299];
-    	toto[27] = [84, 401];
-    	toto[28] = [55, 100];
-    	toto[29] = [100, 61];
-    	
-    	
-    	/*
-    	for (var i = 0; i < Npoints; i++) {
-    		var point = new Point("p" + i);
-    		point.xPos = toto[i][0];
-    		point.yPos = toto[i][1];
-    		point.mIndex = i;
-    		points.push(point);
-    	}
-    	*/
-  
-    	
     	var ind = 0;
     	
     	while (points.length < Npoints) {
@@ -210,28 +162,10 @@ function canvasApp() {
       		count++;
     	}// while
 
-    	
-    	/*
-    	for (var i = 0; i < Npoints; i++) {
-    		console.log(i + " -> " + points[i].xPos);
-    	}
-    	for (var i = 0; i < Npoints; i++) {
-    		console.log(i + " -> " + points[i].yPos);
-    	}
-    	*/
-    	
-    	
-    	
-    	
-    	
     	for (var i = 0; i < points.length; i++) {
       		drawPoint(points[i]);
     	}
-   
-    	
-    	
-    
-    	
+       	
     	var S = [];
     	redraw(points, S);
     	
