@@ -96,8 +96,6 @@ public class PointDist implements Serializable {
 	}// init
 	
 	public void scanStep() {
-		
-		index++;
 				 
 		while (true) {
 		      
@@ -119,7 +117,9 @@ public class PointDist implements Serializable {
 		  
 		convexHull.add(points[pointList[index]]);
 	 	 
-		if (index == points.length-1) {
+		index++;
+
+		if (index == points.length) {
 			 finished = true; 
 		}
 	}

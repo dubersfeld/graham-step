@@ -23,7 +23,7 @@ Here are some screen shots that can be seen during the demo.
 After the points distribution was initialized:
 ![alt text](images/init.png "Points distribution initialized")
 
-After the largest component was computed:
+Graham step:
 ![alt text](images/step.png "Convex hull step")
 
 
